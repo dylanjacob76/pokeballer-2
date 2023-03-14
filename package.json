@@ -1,0 +1,40 @@
+{
+  "name": "pokeballer-2",
+  "version": "1.0.0",
+  "description": "## Table of Contents --- * [Description](#description)  | [Links](#links) | [Usage](#usage) | [Demo](#demo) | [Preview](#preview) |[Installation](#installation) | [Tests](#tests) | [Contributing](#contributing) | [Questions](#questions) | [Sources-Tech](#sources-tech) | [License](#license)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/seed.js",
+    "watch": "nodemon server.js",
+    "lint": "npx eslint **/*.js",
+    "fix": "npx eslint **/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanjacob76/pokeballer-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylanjacob76/pokeballer-2/issues"
+  },
+  "homepage": "https://github.com/dylanjacob76/pokeballer-2#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "express-session": "^1.17.1",
+    "lodash.shuffle": "^4.2.0",
+    "mysql2": "^2.2.5",
+    "pokemontcgsdk": "^2.0.0",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
