@@ -1,11 +1,9 @@
-/* RESET ************************************************/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* MEDIA QUERIES ****************************************/
 @media only screen and (min-width : 320px) and (max-width : 600px) {
     .card {
         width: 75%;
@@ -57,9 +55,6 @@
 
     }
     .container {
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center; */
         width: 100%;
     }
 }
@@ -68,7 +63,6 @@ body {
     font-family: 'Hind', sans-serif;
 }
 
-/* LOGIN PAGE */
 .login-instructions {
     text-align: center;
     margin-top: 50px;
@@ -89,7 +83,6 @@ body {
     color: white;
 }
 
-/* FONT STYLE ON HEADERS ********************************/
 .poke-red {
     color: rgb(219, 57, 57);
     font-weight: bold;
@@ -121,9 +114,6 @@ body {
     font-family: 'Hind', sans-serif;
 }
 
-
-/* LOGIN/SIGNUP PAGE STYLES *****************************/
-
 .container {
     max-width: 1250px;
 }
@@ -153,7 +143,6 @@ body {
     font-family: 'Hind', sans-serif;
 }
 
-/* STYLING FOR EACH CARD DISPLAY ************************/
 .card {
     margin: 20px;
     padding: 0;
@@ -168,7 +157,6 @@ body {
     transform: scale(1.05);
 }
 
-/* Styling on hover */
 
 .overlay {
     position: absolute;
@@ -210,13 +198,8 @@ body {
     margin-bottom: 100px;
 }
 
-/* NAV BAR STYLING **************************************/
 #navbarDropdownMenuLink {
     max-width: 200px;
-}
-
-#add-crd {
-    margin: 60px;
 }
 
 .nav-link {
@@ -242,14 +225,12 @@ body {
 
 }
 
-/* SEARCH FORM STYLING ***********************************/
 #search-card {
     margin-top: 10%;
     margin-bottom: 20%;
 }
 
 .search {
-    /* position: relative; */
     bottom: 20px;
     border: 6px solid black;
     border-radius: 5px;
@@ -261,7 +242,6 @@ body {
     margin-bottom: 50px;
 }
 
-/* HOMEPAGE FORM STYLING *****************************/
 
 input {
     border: 2px solid black;
@@ -269,9 +249,15 @@ input {
 }
 
 #BtnCard {
-    background-color: white;
+    background-color: rgb(32, 125, 255);
     padding: 2px;
     font-family: 'Hind', sans-serif;
+    color: rgb(243, 243, 243);
+}
+
+#BtnCard:hover {
+    transition: 0.2s ease-in-out;
+    background-color: rgb(158, 209, 230);
 }
 
 .suggested-text {
