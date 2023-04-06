@@ -103,7 +103,7 @@ router.get('/search/:pokemonName', withAuth, async (req, res) => {
 // renders a blank page with add
 router.get('/add', withAuth, async (req, res) => {
   try {
-    res.render('add', {logged_in: req.session.logged_in})
+    res.render('add', { logged_in: req.session.logged_in })
   } catch (err) {
     res.status(500).json(err);
   }
