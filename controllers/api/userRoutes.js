@@ -93,8 +93,7 @@ router.post('/login', async (req, res) => {
 router.post('/logout', (req, res) => {
     if (req.session.logged_in) {
         req.session.destroy(() => {
-            req.logout(); // remove the req.user property and clear the login session
-            res.redirect('/login'); //redirect to login page
+            res.redirect('/login');
             res.status(204).end();
         });
     } else {
